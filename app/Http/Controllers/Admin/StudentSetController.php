@@ -199,7 +199,7 @@ public function FeeCatStore(Request $request){
     		'alert-type' => 'success'
     	);
 
-    	return redirect()->route('fee.amount.view')->with($notification);
+    	return redirect()->route('fee.amount.view')->with($notification); 
 
     }  // End Method 
 
@@ -238,7 +238,7 @@ public function FeeCatStore(Request $request){
 
     		} // End For Loop	 
 
-    	}// end Else
+    	}// end Else 
 
        $notification = array(
     		'message' => 'Data Updated Successfully',
